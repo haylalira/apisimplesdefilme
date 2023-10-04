@@ -8,15 +8,16 @@
 A API de Filmes é um serviço que fornece informações sobre filmes, incluindo detalhes, descrições, imagens e trailers. Você pode usá-la para criar aplicativos, sites ou qualquer projeto que envolva informações sobre filmes.
 
 ## Tabela de Conteúdos
-- [Instalação](#instalação)
+
 - [Uso](#uso)
 - [Rotas](#rotas)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+  
+## Rotas
+GET : http://localhost:3004/
+POST:http://localhost:3004/createMovie
+PUT:http://localhost:3004/put/:ID
+DELETE:http://localhost:3004/deleteMovies/:ID
 
-## Instalação
-
-Para executar a API de Filmes em sua máquina local, siga estas etapas:
 ## Uso
 
 Você pode usar esta API para obter informações sobre filmes em seus próprios projetos. Veja como fazer uma solicitação de exemplo:
